@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<style>
+    /* CSS reset */
+    body {
+        color: white;
+        margin: 0px;
+        background: url('img/gymMan.jpg');
+        background-repeat: no-repeat;
+        background-size:cover;
+        font-family: 'Roboto Slab', serif;
+        font-family: 'Ubuntu', sans-serif;
+
+    }
+
+
+    .left {
+        position: absolute;
+        left: 30px;
+        top: 15px;
+        display: inline-block;
+        /* border: 2px solid red; */
+        font-size: 25px;
+        line-height: 25px;
+    }
+
+    .left div {
+        text-align: center;
+    }
+
+    .mid {
+        margin: 15px auto;
+        display: block;
+        width: 51%;
+        /* border: 2px solid green; */
+    }
+
+    .left img {
+        width: 149px;
+
+        /* filter: invert(20%); */
+
+    }
+
+    .right {
+        position: absolute;
+        right: 34px;
+        top: 15px;
+        display: inline-block;
+        /* border: 2px solid yellow; */
+    }
+
+
+    .navbar {
+        display: inline-block;
+
+    }
+
+    .navbar li {
+        display: inline-block;
+        color: white;
+        font-size: 40px;
+    }
+
+    .navbar li a {
+        color: white;
+        text-decoration: none;
+        padding: 34px 20px;
+
+    }
+
+    .navbar li a:hover,
+    .navbar li a.active {
+        text-decoration: underline;
+        color: gray;
+    }
+
+    .btn {
+        font-family: 'Roboto Slab', serif;
+        font-family: 'Ubuntu', sans-serif;
+        margin: 14px 15px;
+        color: white;
+        background-color: black;
+        padding: 11px 16px;
+        border-radius: 36px;
+        font-size: 22px;
+        cursor: pointer;
+    }
+
+    .btn:hover {
+        background-color: grey;
+    }
+
+    .container {
+        border: 2px solid white;
+        margin: 21px 1274px;;
+        padding: 65px 138px;
+        width: 17%;
+        border-radius: 60px;
+        font-size: 36px;
+
+    }
+
+    .form_group input {
+        text-align: center;
+        display: block;
+        width: 318px;
+        padding: 10px;
+        border: 4px solid black;
+        margin: 27px auto;
+    }
+
+    .btn1 {
+        font-family: 'Roboto Slab', serif;
+        font-family: 'Ubuntu', sans-serif;
+        margin: 9px 98px;
+        color: white;
+        background-color: black;
+        padding: 6px 12px;
+        border-radius: 10px;
+        font-size: 20px;
+        cursor: pointer;
+    }
+</style>
+
+<body>
+    <header class="header">
+        <!-- left box for logo -->
+        <div class="left">
+            <img src="img/gymlogo.jpg" alt="">
+            <div>Harry Fitness</div>
+        </div>
+        <!-- midbox for navbar -->
+        <div class="right">
+            <button class="btn">call us now</button> <button class="btn">email us</button>
+        </div>
+        <!-- rightbox for buttons -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Fitness Calculator</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+
+    </header>
+    <div class="container">
+        Join the best GYM!!!
+        <form action="noaction.php"></form>
+        <div class="form_group">
+            <input type="text" name="" placeholder="Enter your name">
+        </div>
+        <div class="form_group">
+            <input type="text" name="" placeholder="Address">
+        </div>
+        <div class="form_group">
+            <input type="text" name="" placeholder="Phone No">
+        </div>
+        <div class="form_group">
+            <input type="text" name="" placeholder="E-mail">
+        </div>
+        <button class="btn1">Submit Now</button>
+    </div>
+</body>
+
+</html>

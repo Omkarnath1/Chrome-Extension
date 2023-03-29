@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Before and After Psuedo Selector</title>
+</head>
+<style>
+    body{
+        background-color: black;
+        color: white;
+        margin: 0;
+        padding: 0;
+    }
+    .navigation_bar{
+        font-size: 20px;
+       display: flex;
+    }
+    li {
+       list-style: none;
+       padding: 34px  23px;
+    }
+    section{
+        border: 2px solid red;
+        margin: 3px 23px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .box{
+        display: flex;
+        margin : 18px auto;
+        border: 2px solid red;
+        height: 100px;
+        width: 50%;
+        /* align-items: center;
+        justify-content: center; */
+
+    }
+    .first{
+        /* background-color: aqua; */
+        color: white;
+        /* border: 2px solid purple; */
+        
+        margin: 3px;
+        padding: 3px;
+       
+    }
+
+
+</style>
+<body>
+    <header>
+        <nav class="navbar">
+          <ul class="navigation_bar">
+            <li class="item">Home</li>
+            <li class="item">About</li>
+            <li class="item">Services</li>
+            <li class="item">Contact Us</li>
+          </ul>
+        </nav>
+        <section>
+            <h3>welcome to coding world</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed tempora magnam nam rerum illum voluptatum sit quaerat suscipit delectus voluptatem officiis nostrum sequi est ab temporibus possimus, et laborum quasi quas quam hic repudiandae corporis! Reiciendis saepe ex consequatur voluptates.</p>
+        </section>
+        <div class="box" >
+            <div class="first" align="left">hi hello bye</div>
+        </div>
+    </header>
+    
+</body>
+</html>

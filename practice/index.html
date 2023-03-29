@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="results.html" method="GET" enctype="multipart/form-data">
+        <!-- name="" => attribute for storing that row value  -->
+        <!-- for="" => attribute for  -->
+        <!-- value="" => Default value -->
+        <div>
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name" placeholder="Username" required>
+        </div>
+        <div>
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password" placeholder="Password" required>
+        </div>
+        <div>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" placeholder="E-mail" required>
+        </div>
+        <div>
+            <label for="age">Age</label>
+            <input type="number" name="age" id="age" placeholder="Age" required>
+        </div>
+        <div>
+            <label for="banana">Banana</label>
+            <input type="checkbox" name="banana" id="banana">
+        </div>
+        <div>
+            <label for="apple">Apple</label>
+            <input type="checkbox" name="apple" id="apple">
+        </div>
+        <div>
+            <label for="date">Birth Date</label>
+            <input type="date" id="date" name="date">
+        </div>
+        <div>
+            Gender
+            <div>
+                <label for="male">Male</label>
+                <input type="radio" name="gender" id="male" value="male">
+            </div>
+            <div>
+                <label for="female">Female</label>
+                <input type="radio" name="gender" id="female" value="female">
+            </div>
+        </div>
+        <div>
+            <label for="eyeColour">Eye Colour</label>
+            <select name="eyeColour" id="eyeColour">
+                <option value="Green">Green</option>
+                <option value="Blue">Blue</option>
+            </select>
+        </div>
+        <div>
+            <label for="bio"></label>
+            <textarea name="bio" id="bio" cols="30" rows="10"></textarea>
+        </div>
+        <div>
+            <label for="file">File</label>
+            <input type="file" id="file" name="file">
+        </div>
+        <button type="reset">Reset</button>
+        <button type="submit">Submit</button>
+    </form>
+
+</body>
+
+</html>
